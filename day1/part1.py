@@ -14,8 +14,6 @@ for line in f:
             last = char
             break
 
-    line_sum = int(first + last)
-
     total_sum += int(first + last)
 
 print(total_sum)
