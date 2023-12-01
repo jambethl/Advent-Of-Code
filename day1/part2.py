@@ -37,7 +37,6 @@ def calculate_first_last_sum():
     for line in f:
         first = 0
         last = 0
-        line_sum = 0
         for char in range(len(line)):
             first = get_digit(line, char)
             if (first == None):
