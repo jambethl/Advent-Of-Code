@@ -9,12 +9,6 @@ def has_symbol_at_x(line, position, num_len):
         return True
     return False
 
-def has_symbol_at_y():
-    return False
-
-def has_symbol_diangonal():
-    return False
-
 def parse():
     file_as_2d_array = []
     adjacent_num_list = []
@@ -47,7 +41,6 @@ def parse():
                 if has_symbol_at_x(line, position, window):
                     adjacent_num_list.append(num_substr)
                     
-                
                 if y - 1 != 0:
                     for i in range(position, window, 1):
                         if num_substr == "763":
